@@ -23,8 +23,8 @@ const TaskList = ({tasks,setData}) => {
   }
   
   return (
-    <div key={tasks.index} className="my-2">
-        <div className="flex justify-between border px-3 py-2 w-[438px]  mt-2">
+    <div key={tasks.index} className="my-2 ">
+        <div className="flex justify-between border px-3 py-2 w-[438px]  mt-2 ">
             <div>{isTrue?<input onChange={(e)=>setEditTask(e.target.value)} value={editTask}/>:tasks.element}</div>
             <div className="flex gap-2 text-lg">
             <button className="border p-1">

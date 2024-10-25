@@ -23,11 +23,13 @@ function App() {
 
       {/* Rendering Tasks as component */}
       {data.map((task, index) => (
-        <TaskList
+        
+          <TaskList
           key={index}
           tasks={{ element: task, index: index }}
           setData={setData}
         />
+        
       ))}
     </div>
   );
