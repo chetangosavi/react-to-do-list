@@ -14,7 +14,7 @@ const AddTask = ({setData}) => {
 
   return (
     <>
-    <div className="flex flex-col justify-center items-center">
+    <div className="flex flex-col justify-center items-center mb-5">
       
       <div className="mt-8 flex items-center">
         
@@ -23,7 +23,7 @@ const AddTask = ({setData}) => {
           className="border px-2 py-3 w-80 text-lg"
           name="task"
           value={newTask}
-          placeholder="Enter any task"
+          placeholder="What’s next on your list?"
         />
         <button
           onClick={addtask}
