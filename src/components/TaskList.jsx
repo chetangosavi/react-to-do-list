@@ -25,7 +25,8 @@ const TaskList = ({ tasks, setData }) => {
       })
     );
     setIsTrue(!isTrue);
-    setIsTaskComplete(!isTaskComplete);
+    
+    
   };
 
   const handleOnChange = () => {
